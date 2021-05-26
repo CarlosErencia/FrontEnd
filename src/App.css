@@ -383,7 +383,7 @@ input[type=number]:focus,
 /* room */
 
 .room {
-    transition: 0.4s linear;
+    transition: 0.2s linear;
     -webkit-transition: 0.4s linear;
     -moz-transition: 0.4s linear;
     -ms-transition: 0.4s linear;
@@ -586,20 +586,6 @@ input[type=number]:focus,
 
 /*  filtro*/
 
-
-/* .filter-container {
-  padding: 5rem 0;
-}
-
-.form-group {
-  text-transform: capitalize;
-}
-.form-group label {
-  display: block;
-  letter-spacing: var(--mainSpacing);
-  margin-bottom: 0.5rem;
-} */
-
 .single-extra label {
     display: inline-block;
     font-size: 0.8rem;
@@ -710,47 +696,6 @@ input[type=number]:focus,
     
 }
 
-/* .formContacto {
-    width:350px;
-	padding:15px;
-	border-radius:10px;
-	margin:auto;
-    margin-top: 130px;
-	background-color:#ccc;
-}
-
-.form label{
-	width:72px;
-	font-weight:bold;
-	display:inline-block;
-}
-
-form input[type="text"],
-form input[type="email"]{
-	width:180px;
-	padding:3px 10px;
-	border:1px solid #f6f6f6;
-	border-radius:3px;
-	background-color:#f6f6f6;
-	margin:8px 0;
-	display:inline-block;
-}
-
-form input[type="submit"]{
-	width:100%;
-	padding:8px 16px;
-	margin-top:32px;
-	border:1px solid #000;
-	border-radius:5px;
-	display:block;
-	color:#fff;
-	background-color:#000;
-} 
-
-form input[type="submit"]:hover{
-	cursor:pointer;
-} */
-
 textarea{
 	width:100%;
 	height:100px;
@@ -762,57 +707,19 @@ textarea{
 	resize:none;
 	display:block;
 }
-/* 
-.form-container {
-  max-width: 300px;
-  padding: 10px;
-  background-color: white;
-}
-
-.form-container input[type=text], .form-container input[type=password] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    border: none;
-    background: #f1f1f1;
-}
-
-.form-container input[type=text]:focus, .form-container input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
-  }
-
-.form-container input[type=text]:focus, .form-container input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
-  }
-
-  .form-container .btn {
-    background-color: #04AA6D;
-    color: white;
-    padding: 16px 20px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    margin-bottom:10px;
-    opacity: 0.8;
-  }
-
-  .form-container .btn:hover, .open-button:hover {
-    opacity: 1;
-  }
-
-  .form-container .cancel {
-    background-color: red;
-  }
-
-/* .form {
-    justify-content: center;
-    text-align: center;
-} */ */
 
 .Mapa {
-    margin-top: 5%;
+  margin: 155px;
+  margin-bottom: 350px;
+  margin-left: 380px; 
+  padding: 1em; 
+  background: white; 
+}
+
+.FormularioContacto{
+    position: absolute; 
+    width: 50%; 
+    margin-right: 20px; 
 }
 
 .Applogin{
@@ -826,3 +733,19 @@ textarea{
     display: flex;
 }
 
+.restaurant{
+   background-color: #fff; 
+   text-align: center;
+}
+
+.foto{
+    height: 350px;
+}
+
+.markcolor{
+    background-color: #FF6565;
+}
+
+.precio{
+    font-size: x-large;
+}

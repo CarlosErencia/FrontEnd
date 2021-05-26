@@ -2,8 +2,10 @@ import React from 'react'
 import Hero from '../components/Hero';
 import Banner from '../components/Banner';
 import { Link } from 'react-router-dom';
-import Services from '../components/Services';
 import FeaturedRooms from '../components/FeaturedRooms';
+import Servicios from '../components/Servicios';
+import Installations from '../components/Installations'
+import Restaurants from '../components/Restaurants'
 
 export default function Home() {
     return (
@@ -15,8 +17,10 @@ export default function Home() {
                       Nuestras Habitaciones
                 </Link>
         </Banner>
-        <Services/> 
+        <Servicios/>
         <FeaturedRooms/>
+        <Installations/>
+        <Restaurants/>
         </>
 
     )
